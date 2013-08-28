@@ -1,8 +1,8 @@
-var prompt = require("./prompt/lib/prompt.js");
+var prompt = require("prompt");
 
-var suits = new Array('C','D','H','S');
-var ranks = new Array('2','3','4','5','6','7','8','9','J','Q','K','A');
-var cards = make2dArray(ranks,suits);
+const suits = ['C','D','H','S'];
+const ranks = ['2','3','4','5','6','7','8','9','10','J','Q','K','A'];
+const cards = make2dArray(ranks,suits);
 console.log(cards);
 prompt.start();
 prompt.get(['Hands'], function(err, result){
@@ -25,15 +25,15 @@ function onErr(err){
 	return 1;
 };
 
-function realityCheck(Hands){	
+function realityCheck(hands){	
 	return false;
 };
 
-function splitHands(Hands){
+function splitHands(hands){
 	return null;
 };
 
-function evaluateHand(Hand){
+function evaluateHand(hand){
 	return null
 };
 

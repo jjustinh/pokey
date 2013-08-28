@@ -1,0 +1,22 @@
+{
+  "name": "pokey",
+  "description": "poker hand evaluator for code kata: http://www.codingdojo.org/cgi-bin/wiki.pl?KataPokerHands",
+  "version": "0.0.1",
+  "keywords": [
+    "kata",
+    "poker"
+  ],
+  "main": "./pokey.js",
+  "dependencies": {},
+  "devDependencies": {
+    "prompt": "~0.2.11"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jjustinh/pokey"
+  },
+  "license": "unlicense",
+  "engines": {
+    "node": ">=0.8.8"
+  }
+}
